@@ -14,7 +14,7 @@ const NETWORK_TYPE = typeforce.compile({
     },
 });
 const BITCOIN = {
-    messagePrefix: 'XEP Signed Message:\n',
+    messagePrefix: '\x14XEP Signed Message:\n',
     bech32: 'ep',
     bip32: {
         public: 0x0488b21e,
